@@ -1,0 +1,20 @@
+{
+  "name": "bloom-telegram-bot",
+  "version": "1.0.0",
+  "main": "api/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "node api/index.js",
+    "setup-webhook": "node setup-webhook.js",
+    "test-email": "node test-email.js"
+  },
+  "dependencies": {
+    "telegraf": "^4.12.2",
+    "dotenv": "^16.0.3",
+    "nodemailer": "^6.9.7",
+    "node-fetch": "^3.3.2",
+    "@solana/web3.js": "^1.87.6",
+    "bs58": "^5.0.0"
+  }
+}
